@@ -1,0 +1,106 @@
+body {
+  font-family: Arial;
+  padding: 30px 50px 50px 50px;
+  box-sizing: border-box;
+  background: #f7f7f7;
+}
+body p {
+  font-size: 20px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+  margin: 60px 0px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 0% 10%;
+  gap: 30px;
+}
+
+.box-01 {
+  align-self: center;
+}
+.box-01 p,
+h1 {
+  text-align: end;
+}
+
+.btn {
+  display: flex;
+  justify-content: end;
+}
+
+.box-01 a {
+  color: white;
+  background: #ee2211;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.box-02 {
+  align-self: center;
+}
+.box-02 img {
+  max-width: 100%;
+  display: block;
+}
+
+.box-03 {
+  align-self: center;
+  text-align: end;
+  font-size: 64px;
+  color: #c6c6c6;
+}
+
+.box-04 {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 40% 0% 10%;
+}
+
+.box-04 h2,
+p {
+  text-align: start;
+}
+
+.box-04 img {
+  width: 35px;
+}
+
+.icon-descri {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+}
+.icon-descri-text {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  padding-left: 50px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
